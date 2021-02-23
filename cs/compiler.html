@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>编译原理 | 前端笔记</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    
+    <meta name="description" content="learning notebook of cheeka">
+    <link rel="preload" href="/assets/css/0.styles.6140569f.css" as="style"><link rel="preload" href="/assets/js/app.b27af4fa.js" as="script"><link rel="preload" href="/assets/js/2.5fc4f946.js" as="script"><link rel="preload" href="/assets/js/12.9443d8c7.js" as="script"><link rel="prefetch" href="/assets/js/10.369d905b.js"><link rel="prefetch" href="/assets/js/11.331fc11f.js"><link rel="prefetch" href="/assets/js/13.333ecdac.js"><link rel="prefetch" href="/assets/js/14.93abd0db.js"><link rel="prefetch" href="/assets/js/15.0b95aafa.js"><link rel="prefetch" href="/assets/js/16.372500f4.js"><link rel="prefetch" href="/assets/js/17.09ca4bd8.js"><link rel="prefetch" href="/assets/js/18.a6fd3900.js"><link rel="prefetch" href="/assets/js/19.659acaac.js"><link rel="prefetch" href="/assets/js/20.320906d7.js"><link rel="prefetch" href="/assets/js/21.0cf978f1.js"><link rel="prefetch" href="/assets/js/22.f89d5d55.js"><link rel="prefetch" href="/assets/js/23.2b823351.js"><link rel="prefetch" href="/assets/js/24.3d8f712f.js"><link rel="prefetch" href="/assets/js/25.477b02c5.js"><link rel="prefetch" href="/assets/js/26.a7abcbf2.js"><link rel="prefetch" href="/assets/js/27.f7e906c9.js"><link rel="prefetch" href="/assets/js/28.52aca943.js"><link rel="prefetch" href="/assets/js/29.80f459c9.js"><link rel="prefetch" href="/assets/js/3.e4a7d532.js"><link rel="prefetch" href="/assets/js/4.d574c98b.js"><link rel="prefetch" href="/assets/js/5.8abf2eed.js"><link rel="prefetch" href="/assets/js/6.a37e6eeb.js"><link rel="prefetch" href="/assets/js/7.1e9eefa2.js"><link rel="prefetch" href="/assets/js/8.6e595e88.js"><link rel="prefetch" href="/assets/js/9.106390a6.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.6140569f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">前端笔记</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端基础" class="dropdown-title"><span class="title">前端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/fe/css.html" class="nav-link">
+  css
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JavaScript" class="dropdown-title"><span class="title">JavaScript</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/javascript/es6.html" class="nav-link">
+  ES6
+</a></li><li class="dropdown-item"><!----> <a href="/javascript/omission.html" class="nav-link">
+  JS拾遗
+</a></li><li class="dropdown-item"><!----> <a href="/javascript/ts.html" class="nav-link">
+  TypeScript
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><span class="title">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/framework/vue.html" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/framework/vue3/" class="nav-link">
+  Vue3源码解读
+</a></li><li class="dropdown-item"><!----> <a href="/framework/react.html" class="nav-link">
+  React
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="网络" class="dropdown-title"><span class="title">网络</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/network/http.html" class="nav-link">
+  HTTP
+</a></li><li class="dropdown-item"><!----> <a href="/network/caching.html" class="nav-link">
+  缓存
+</a></li></ul></div></div><div class="nav-item"><a href="/engineering/" class="nav-link">
+  工程化
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="进阶" class="dropdown-title"><span class="title">进阶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/advance/functional.html" class="nav-link">
+  函数式编程
+</a></li><li class="dropdown-item"><!----> <a href="/advance/patterns.html" class="nav-link">
+  设计模式
+</a></li><li class="dropdown-item"><!----> <a href="/advance/algorithm.html" class="nav-link">
+  数据结构
+</a></li><li class="dropdown-item"><!----> <a href="/advance/leet_code.html" class="nav-link">
+  LeetCode
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="全栈" class="dropdown-title"><span class="title">全栈</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/fullStack/node.html" class="nav-link">
+  Node
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="计算机科学" class="dropdown-title"><span class="title">计算机科学</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/cs/program.html" class="nav-link">
+  程序是怎么跑起来的
+</a></li><li class="dropdown-item"><!----> <a href="/cs/compiler.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  编译原理
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/cheekahao/learning" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端基础" class="dropdown-title"><span class="title">前端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/fe/css.html" class="nav-link">
+  css
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JavaScript" class="dropdown-title"><span class="title">JavaScript</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/javascript/es6.html" class="nav-link">
+  ES6
+</a></li><li class="dropdown-item"><!----> <a href="/javascript/omission.html" class="nav-link">
+  JS拾遗
+</a></li><li class="dropdown-item"><!----> <a href="/javascript/ts.html" class="nav-link">
+  TypeScript
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><span class="title">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/framework/vue.html" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/framework/vue3/" class="nav-link">
+  Vue3源码解读
+</a></li><li class="dropdown-item"><!----> <a href="/framework/react.html" class="nav-link">
+  React
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="网络" class="dropdown-title"><span class="title">网络</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/network/http.html" class="nav-link">
+  HTTP
+</a></li><li class="dropdown-item"><!----> <a href="/network/caching.html" class="nav-link">
+  缓存
+</a></li></ul></div></div><div class="nav-item"><a href="/engineering/" class="nav-link">
+  工程化
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="进阶" class="dropdown-title"><span class="title">进阶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/advance/functional.html" class="nav-link">
+  函数式编程
+</a></li><li class="dropdown-item"><!----> <a href="/advance/patterns.html" class="nav-link">
+  设计模式
+</a></li><li class="dropdown-item"><!----> <a href="/advance/algorithm.html" class="nav-link">
+  数据结构
+</a></li><li class="dropdown-item"><!----> <a href="/advance/leet_code.html" class="nav-link">
+  LeetCode
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="全栈" class="dropdown-title"><span class="title">全栈</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/fullStack/node.html" class="nav-link">
+  Node
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="计算机科学" class="dropdown-title"><span class="title">计算机科学</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/cs/program.html" class="nav-link">
+  程序是怎么跑起来的
+</a></li><li class="dropdown-item"><!----> <a href="/cs/compiler.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  编译原理
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/cheekahao/learning" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/cs/compiler.html" aria-current="page" class="active sidebar-link">编译原理</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/cs/compiler.html#c程序的运行式结构" class="sidebar-link">C程序的运行式结构</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/cs/compiler.html#程序加载时的内存概况" class="sidebar-link">程序加载时的内存概况</a></li><li class="sidebar-sub-header"><a href="/cs/compiler.html#程序运行过程中的内存变化" class="sidebar-link">程序运行过程中的内存变化</a></li></ul></li><li class="sidebar-sub-header"><a href="/cs/compiler.html#汇编中的寄存器" class="sidebar-link">汇编中的寄存器</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="编译原理"><a href="#编译原理" class="header-anchor">#</a> 编译原理</h1> <blockquote><p>《编译系统透视：图解编译原理》读书笔记</p></blockquote> <h2 id="c程序的运行式结构"><a href="#c程序的运行式结构" class="header-anchor">#</a> C程序的运行式结构</h2> <p>C程序运行的核心是函数的执行和调用，它构成了整个C程序运行时结构的基础框架。这一运行过程主要是在程序指令的驱动以及数据压栈、清栈的支持下实现的。</p> <p>以下面的程序为例：</p> <div class="language-c extra-class"><pre class="language-c"><code><span class="token keyword">int</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">,</span> <span class="token keyword">int</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> m <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">4</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>
+    m <span class="token operator">=</span> <span class="token function">fun</span><span class="token punctuation">(</span>i<span class="token punctuation">,</span> j<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">int</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">,</span><span class="token keyword">int</span> b<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> c<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>
+    c<span class="token operator">=</span>a<span class="token operator">+</span>b<span class="token punctuation">;</span>
+    <span class="token keyword">return</span> c<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="程序加载时的内存概况"><a href="#程序加载时的内存概况" class="header-anchor">#</a> 程序加载时的内存概况</h3> <p>运行时，在内存中，共有代码区、静态数据区和动态数据区三个区域。</p> <p><img src="//img.haozhenjia.com/blog/code_memory.jpg" alt="内存区域"></p> <p>其中，<strong>代码区</strong>装载了程序所对应的机器指令；全局变量<code>m</code>的数值装载在<strong>静态数据区</strong>中；<strong>动态数据区</strong>加载程序运行过程中产生的数据。</p> <p>程序执行的本质就是代码区的指令不断执行，驱使动态数据区和静态数据区产生数据变化。</p> <p><code>CPU</code>中有三个寄存器，分别是<code>eip</code>、<code>ebp</code>和<code>esp</code>。</p> <p><code>eip</code>永远指向代码区将要执行的下一条指令，它的管控方式有两种，一种是“顺序执行”，即程序执行完一条指令后自动指向下一条执行；另一种是跳转，也就是执行完一条跳转指令后跳转到指定的位置。</p> <p><code>ebp</code>和<code>esp</code>用来管控栈空间，<code>ebp</code>指向栈底，<code>esp</code>指向栈顶。在代码区中，函数调用、返回和执行伴随着不断压栈和清栈，栈中数据存储和释放的原则是后进先出。</p> <p><code>eip</code>指向<code>main</code>函数的第一条指令，此时程序还没有运行，栈空间里还没有数据，ebp和esp指向的位置是程序加载时内核设置的。</p> <h3 id="程序运行过程中的内存变化"><a href="#程序运行过程中的内存变化" class="header-anchor">#</a> 程序运行过程中的内存变化</h3> <p>程序开始执行<code>main</code>函数第一条指令(<code>call</code>指令)，<code>eip</code>自动指向下一条指令。第一条指令的执行，致使<code>ebp</code>的地址值被保存在栈中，保存的目的是本程序执行完毕后，<code>ebp</code>还能返回现在的位置，复原现在的栈。</p> <p>随着<code>ebp</code>地址值的压栈，<code>esp</code>自动向栈顶方向移动，它将永远指向栈顶。</p> <p>接下来，开始构建<code>main</code>函数自己的栈，<code>ebp</code>原来指向的地址值已经被保存了，此时和<code>esp</code>是重叠的，用来看管main函数的栈底。</p> <h2 id="汇编中的寄存器"><a href="#汇编中的寄存器" class="header-anchor">#</a> 汇编中的寄存器</h2> <p><code>eax</code>, <code>ebx</code>, <code>ecx</code>, <code>edx</code>, <code>esi</code>, <code>edi</code>, <code>ebp</code>, <code>esp</code>等都是<code>X86</code>汇编语言中<code>CPU</code>上的通用寄存器的名称，是32位的寄存器。</p> <p>如果用C语言来解释，可以把这些寄存器当作变量看待。</p> <table><thead><tr><th>汇编名称</th> <th>寄存器类型</th> <th>作用</th></tr></thead> <tbody><tr><td><code>EAX</code></td> <td>累加寄存器<code>accumulator register</code></td> <td>加法乘法指令的缺省寄存器</td></tr> <tr><td><code>EBX</code></td> <td>基址寄存器<code>base register</code></td> <td>内存寻址时存放基地址</td></tr> <tr><td><code>ECX</code></td> <td>程序计数器<code>program counter</code></td> <td>重复<code>REP</code>前缀指令和<code>LOOP</code>指令的内定计数器</td></tr> <tr><td><code>EDX</code></td> <td></td> <td>用来存放整数除法产生的余数</td></tr> <tr><td><code>ESI</code></td> <td>源索引寄存器<code>source index</code></td> <td>在很多字符串操作指令中, <code>DS:ESI</code>指向源串</td></tr> <tr><td><code>EDI</code></td> <td>目标索引寄存器<code>destination index</code></td> <td>在很多字符串操作指令中, <code>ES:EDI</code>指向目标串</td></tr> <tr><td><code>EBP</code></td> <td>基址指针<code>base pointer</code></td> <td>常被用作高级语言函数调用的<strong>框架指针<code>frame pointer</code></strong>，存放当前线程的栈底指针</td></tr> <tr><td><code>ESP</code></td> <td>堆栈指针</td> <td>存放当前线程的栈顶指针，堆栈的顶部是地址小的区域，压入堆栈的数据越多，ESP也就越来越小。</td></tr> <tr><td><code>EIP</code></td> <td>指令寄存器<code>instrution register</code></td> <td>存放下一个<code>CPU</code>指令存放的内存地址</td></tr></tbody></table> <p>因此，在函数的起始部分经常有：</p> <div class="language- extra-class"><pre class="language-text"><code>push ebp; 保存当前ebp
+mov ebp, esp; EBP设为当前堆栈指针
+sub esp, xxx; 预留xxx字节给函数临时变量.
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.b27af4fa.js" defer></script><script src="/assets/js/2.5fc4f946.js" defer></script><script src="/assets/js/12.9443d8c7.js" defer></script>
+  </body>
+</html>
